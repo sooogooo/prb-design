@@ -1,0 +1,12 @@
+:root{
+/* Restrained. The seal-script logo is all straight cuts and brush terminals,
+   so nothing in the system is pill-soft except tags and avatars. */
+--radius-1:2px;--radius-2:4px;--radius-3:8px;--radius-4:14px;--radius-5:20px;--radius-full:999px;
+--radius-card:var(--radius-2);--radius-card-lg:var(--radius-3);--radius-control:var(--radius-2);
+--radius-tag:var(--radius-full);--radius-sheet:var(--radius-4);--radius-avatar:var(--radius-full);
+/* Border widths */
+--bw-hairline:1px;/* @kind other */
+--bw-default:1px;/* @kind other */
+--bw-emphasis:2px;/* @kind other */
+--bw-rule-brand:3px;/* @kind other */
+}

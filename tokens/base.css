@@ -1,0 +1,19 @@
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--surface-page);color:var(--text-body);font:var(--type-body);letter-spacing:var(--ls-body);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5,h6,p,figure,blockquote,dl,dd{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+img,svg{display:block;max-width:100%}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--text-brand);text-decoration:none;border-bottom:1px solid var(--border-brand-soft);transition:var(--transition-color)}
+a:hover{color:var(--text-brand-hover);border-bottom-color:var(--border-brand)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+::selection{background:var(--prb-red-100);color:var(--prb-red-900)}
+.prb-overline{font:var(--type-overline);letter-spacing:var(--ls-overline);text-transform:uppercase;color:var(--text-accent)}
+.prb-rule{height:var(--bw-rule-brand);width:var(--space-8);background:var(--surface-brand);border:0}
+.prb-hairline{height:1px;background:var(--border-hairline);border:0}
+.prb-num{font-family:var(--font-numeric);font-variant-numeric:tabular-nums}
+.prb-paper{background:var(--surface-page);background-image:radial-gradient(rgba(139,50,32,.045) 1px,transparent 1px);background-size:18px 18px}
+@keyframes prb-fade{from{opacity:0}to{opacity:1}}
+@keyframes prb-rise{from{opacity:0;transform:translateY(var(--rise-enter))}to{opacity:1;transform:translateY(0)}}
+@keyframes prb-spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){@keyframes prb-rise{from{opacity:1;transform:none}to{opacity:1;transform:none}}}

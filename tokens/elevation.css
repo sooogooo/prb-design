@@ -1,0 +1,19 @@
+:root{
+/* Shadows are warm (tinted with ink-900, never neutral black) and shallow.
+   Depth in this brand comes from hairlines and paper tone first, shadow second. */
+--shadow-0:none;
+--shadow-1:0 1px 2px rgba(28,25,23,.05);
+--shadow-2:0 2px 8px rgba(28,25,23,.06),0 1px 2px rgba(28,25,23,.04);
+--shadow-3:0 8px 24px -6px rgba(28,25,23,.12),0 2px 6px rgba(28,25,23,.05);
+--shadow-4:0 20px 48px -12px rgba(74,23,14,.18),0 4px 12px rgba(28,25,23,.06);
+--shadow-brand:0 10px 28px -10px rgba(139,50,32,.38);
+--shadow-inset-top:inset 0 1px 0 rgba(255,255,255,.7);
+--shadow-inset-hairline:inset 0 0 0 1px var(--border-hairline);
+--shadow-sticky:0 1px 0 var(--border-hairline);
+/* Blur / transparency — used only for sticky chrome and sheet scrims. */
+--blur-chrome:saturate(1.4) blur(14px);/* @kind other */
+--blur-scrim:blur(2px);/* @kind other */
+--opacity-disabled:.42;/* @kind other */
+--opacity-hover-veil:.08;/* @kind other */
+--opacity-press-veil:.14;/* @kind other */
+}

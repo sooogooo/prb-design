@@ -1,0 +1,52 @@
+:root{
+/* ── 凤羽赤 Phoenix Vermilion — sampled from the logo. red-700 is the phoenix body,
+      red-500 is the bright crimson trailing stroke. These two are the brand. ── */
+--prb-red-950:#2E0E07;--prb-red-900:#4A170E;--prb-red-800:#6B2415;--prb-red-700:#8B3220;
+--prb-red-600:#A33A25;--prb-red-500:#B21C23;--prb-red-400:#C55B45;--prb-red-300:#DE9683;
+--prb-red-200:#EFC9BE;--prb-red-100:#F8E7E1;--prb-red-50:#FDF5F2;
+/* ── 墨灰 Ink — warm-tinted neutral ramp. ink-600 is the logo's seal-script grey. ── */
+--prb-ink-950:#100E0D;--prb-ink-900:#1C1917;--prb-ink-800:#2E2A27;--prb-ink-700:#4A4441;
+--prb-ink-600:#787878;--prb-ink-500:#9A9490;--prb-ink-400:#B8B2AD;--prb-ink-300:#D5CFC9;
+--prb-ink-200:#E7E2DC;--prb-ink-100:#F2EEE8;--prb-ink-50:#F9F6F1;--prb-white:#FFFFFF;
+/* ── 陶土 Clay — secondary accent. Rules, seals, quiet frames, premium detailing. ── */
+--prb-clay-700:#8A7355;--prb-clay-600:#A8906F;--prb-clay-500:#C9B79C;--prb-clay-300:#E3D7C4;
+--prb-clay-100:#F4EDE2;
+/* ── Semantic hues. Danger is deliberately hotter than the brand brick so an alert
+      never reads as "just branding". ── */
+--prb-jade-700:#3A5C46;--prb-jade-500:#4F7A5E;--prb-jade-100:#E6EEE8;
+--prb-amber-700:#8A5F1E;--prb-amber-500:#B98330;--prb-amber-100:#FAF0DC;
+--prb-alert-700:#9B2117;--prb-alert-500:#D0342C;--prb-alert-100:#FCE9E7;
+--prb-indigo-700:#2C4560;--prb-indigo-500:#3B5C7A;--prb-indigo-100:#E8EDF2;
+
+/* ── Text ── */
+--text-strong:var(--prb-ink-900);--text-body:var(--prb-ink-800);--text-muted:var(--prb-ink-700);
+--text-subtle:var(--prb-ink-500);--text-disabled:var(--prb-ink-400);
+--text-inverse:var(--prb-ink-50);--text-inverse-subtle:rgba(249,246,241,.66);
+--text-brand:var(--prb-red-700);--text-brand-hover:var(--prb-red-800);
+--text-accent:var(--prb-clay-700);--text-price:var(--prb-red-500);
+--text-success:var(--prb-jade-700);--text-warning:var(--prb-amber-700);--text-danger:var(--prb-alert-700);
+
+/* ── Surfaces ── */
+--surface-page:var(--prb-ink-50);--surface-card:var(--prb-white);--surface-sunken:var(--prb-ink-100);
+--surface-raised:var(--prb-white);--surface-hover:var(--prb-ink-100);--surface-pressed:var(--prb-ink-200);
+--surface-brand:var(--prb-red-700);--surface-brand-hover:var(--prb-red-800);--surface-brand-pressed:var(--prb-red-900);
+--surface-brand-soft:var(--prb-red-50);--surface-brand-soft-hover:var(--prb-red-100);
+--surface-accent-soft:var(--prb-clay-100);--surface-inverse:var(--prb-ink-900);
+--surface-success-soft:var(--prb-jade-100);--surface-warning-soft:var(--prb-amber-100);
+--surface-danger-soft:var(--prb-alert-100);--surface-info-soft:var(--prb-indigo-100);
+--surface-scrim:rgba(28,25,23,.52);--surface-veil:rgba(249,246,241,.82);
+
+/* ── Borders. hairline is the default: this brand draws with thin lines, not with fills. ── */
+--border-hairline:var(--prb-ink-200);--border-default:var(--prb-ink-300);--border-strong:var(--prb-ink-400);
+--border-brand:var(--prb-red-700);--border-brand-soft:var(--prb-red-200);--border-accent:var(--prb-clay-500);
+--border-inverse:rgba(249,246,241,.22);--border-danger:var(--prb-alert-500);
+
+/* ── Action mapping ── */
+--action-primary-bg:var(--surface-brand);--action-primary-bg-hover:var(--surface-brand-hover);
+--action-primary-bg-pressed:var(--surface-brand-pressed);--action-primary-fg:var(--prb-ink-50);
+--action-secondary-fg:var(--prb-red-700);--action-secondary-border:var(--prb-red-700);
+--action-secondary-bg-hover:var(--prb-red-50);
+--action-ghost-fg:var(--prb-ink-800);--action-ghost-bg-hover:var(--prb-ink-100);
+--action-disabled-bg:var(--prb-ink-200);--action-disabled-fg:var(--prb-ink-400);
+--focus-ring:0 0 0 3px rgba(139,50,32,.22);--focus-ring-inverse:0 0 0 3px rgba(249,246,241,.36)
+}
